@@ -6,6 +6,8 @@ export function taxCalc(earnings) {
 
   if (earnings < 12000) {
     tax = 0;
+  } else if (earnings >= 12000 && earnings < 36000) {
+    tax = earnings * 0.26;
   }
 
   return tax;
