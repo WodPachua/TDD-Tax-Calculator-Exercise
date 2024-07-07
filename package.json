@@ -1,0 +1,20 @@
+{
+  "name": "tdd-tax-calculator-exercise",
+  "version": "1.0.0",
+  "description": "TDD exercises as part of the Refactory Apprenticeship Program",
+  "main": "taxCalc.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.6.0"
+  }
+}
